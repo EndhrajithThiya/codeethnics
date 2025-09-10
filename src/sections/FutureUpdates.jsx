@@ -29,11 +29,20 @@ const futureUpdates = [
   { icon: '⏱️', title: 'Time Tracking Per Question', desc: 'Track exact time taken to answer each question.' },
   { icon: '📶', title: 'Network Stability Logs', desc: 'Include connectivity interruptions in reports to avoid unfair penalties.' },
   { icon: '🔥', title: 'Daily Challenge / Streak System', desc: 'Encourage consistent practice with streak badges and XP.' },
-  {
-  icon: '❓',
-  title: 'MCQ Challenges',
-  desc: 'Sharpen your skills with daily multiple-choice questions and track your progress.'
-}
+  { icon: '❓', title: 'MCQ Challenges', desc: 'Sharpen your skills with daily multiple-choice questions and track your progress.' },
+  { icon: '🔌', title: 'Arduino & Raspberry Pi Coding', desc: 'Practice hands-on coding challenges and enhance your IoT development skills every day.' },
+
+  // 🏫 Virtual Classroom + Features
+  { icon: '🏫', title: 'Virtual Classroom', desc: 'Engage in interactive online classes with real-time participation and collaboration.' },
+  { icon: '🤝', title: 'Live Pair Coding', desc: 'Code together with peers in real-time and build problem-solving skills collaboratively.' },
+  { icon: '🧭', title: 'Guided Learning Mode', desc: 'Learn step-by-step with structured guidance, hints, and explanations from mentors.' },
+  { icon: '📘', title: 'Learning Mode with Feedback', desc: 'Get instant feedback on your code and improve continuously through personalized tips.' },
+  { icon: '🎓', title: 'Placement & Campus Integration', desc: 'Connect with companies, prepare for interviews, and integrate with campus hiring drives.' },
+  { icon: '📊', title: 'Skill Gap Analysis', desc: 'Identify strengths and weaknesses with detailed analytics to close your learning gaps.' },
+  { icon: '👩‍🏫', title: 'Interactive Teaching', desc: 'Experience engaging sessions with interactive teaching methods and Q&A discussions.' },
+  { icon: '⌨️', title: 'Staff Live Typing Monitoring', desc: 'Instructors can monitor students’ typing and coding progress in real-time.' },
+  { icon: '🖥️', title: 'Screen Sharing', desc: 'Share your screen with mentors or peers for instant guidance and collaboration.' },
+  { icon: '🐞', title: 'Debugging Support', desc: 'Fix errors faster with integrated debugging tools and real-time mentor assistance.' }
 ];
 
 const FutureUpdates = () => {
